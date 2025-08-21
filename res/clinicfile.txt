@@ -1,0 +1,43 @@
+Family Care Clinic
+7
+0  0 35 60 waiting Front Waiting Room
+40 0 54 25 exam Vitality Room
+55 0 69 25 exam Wellness Room
+70 0 84 25 exam Exam3 Room
+85 0 100 25 exam Exam4 Room
+40 30 69 60 procedure Operations Room
+70 30 100 60 procedure Treatment Room
+8
+physician Amy Adams doctoral 1234567890
+physician Benny Beatrice doctoral 2345678901
+physician Camila Crisis doctoral 3456789012
+physician Denise Davidson doctoral 4567890123
+nurse Emily Emerson doctoral 5678901234
+nurse Fiona Francis masters 6789012345
+nurse George Gertrude masters 7890123456
+reception Irene Isaacson allied B
+8
+0 Arthur Alfredsson 1981/01/01
+1 Betty Baker 1982/02/02
+0 Clive Cardiac 1983/03/03
+2 Doug Dermo 1984/04/04
+0 Elise Enzyme 1985/05/05
+3 Fatima Follicle 1986/06/06
+0 Greg Gastric 1987/07/07
+1 Henry Haralson 1988/08/08
+14
+1 2021/01/01 10:00 37.1 Chest pain
+1 2022/01/01 10:00 37.1 Chest pain
+2 2022/02/02 10:00 37.1 Chest pain
+2 2024/11/01 10:00 37.1 Chest pain
+3 2022/03/03 10:00 37.1 Chest pain
+4 2024/04/04 10:00 37.1 Chest pain
+4 2024/11/01 10:00 37.1 Chest pain
+5 2022/05/05 10:00 37.1 Chest pain
+5 2023/05/05 10:00 37.1 Chest pain
+6 2022/06/06 10:00 37.1 Chest pain
+6 2023/06/06 10:00 37.1 Chest pain
+6 2024/06/06 10:00 37.1 Chest pain
+6 2024/11/01 10:00 37.1 Chest pain
+7 2024/07/07 10:00 37.1 Chest pain
+8 2024/11/01 10:00 37.1 Chest pain
