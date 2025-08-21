@@ -1,13 +1,4 @@
-# CS 5010 Semester Project
-
-This repo represents the coursework for CS 5010!
-
-Name: Hao-Peng Wang
-
-Email: wang.hao-@northeastern.edu
-
-Preferred Name: Hao-Peng Wang
-
+# Health Clinic Management System
 
 
 ### About/Overview
@@ -17,7 +8,7 @@ This program simulates the operations of a health clinic by managing rooms, pati
 
 ### List of Features
 
-The following features are available in both GUI-based (Milestone 4) and text-based (Milestone 3) controllers: 
+The following features are available in both GUI-based and text-based controllers: 
 
 1. Clinic Initialization: Load clinic setup and details from a specification text file.
 2. Patient Registration: Register new patients into the system and enter a visit record. Patients start in the primary waiting room.
@@ -43,21 +34,25 @@ The following features are only available in the text-based controller:
 
 ### How to Run
 
-From JAR:
+**From JAR:**
+
 1. Please execute the following command from the command line:
 
             java -jar clinic.jar <clinic specification file> 
 
      Replace <clinic specification file> with the path to the text file containing the clinic specifications. This will load clinic data into the model and show the program GUI.
-     For example: java -jar clinic.jar clinicfile.txt
-     
+     For example: 
+          
+            java -jar clinic.jar clinicfile.txt
+            
      Or, 
      
             java -jar clinic.jar
             
      Running JAR without specifying the specification file will show the program GUI with empty model data. The user can choose "Load clinic text file" from the system menu to load desired clinic specifications. 
 
-From code:
+**From code:**
+    
 1. This project contains a driver class ClinicDriver with main() that demonstrates how to use the functionalities of this clinic application. You can create your own driver as well.
 2. Compile the Java source files using Java compiler (javac).
 3. Run the driver class from the command line, specifying the specification file in the argument:
@@ -65,8 +60,10 @@ From code:
             java ClinicDriver <clinic specification file>
             
      Replace <clinic specification file> with the path to the text file containing the clinic specifications. This will load clinic data into the model and show the program GUI.
-     For example: java ClinicDriver clinicfile.txt
-     
+     For example: 
+          
+            java ClinicDriver clinicfile.txt 
+            
      Or, 
      
             java ClinicDriver 
